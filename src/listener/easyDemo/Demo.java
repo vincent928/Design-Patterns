@@ -1,11 +1,11 @@
-package 监听器.简单Demo;
+package listener.easyDemo;
 
 public class Demo {
 
     public static void main(String[] args) {
         // 事件源,即被监听的对象
         EventSource es = new EventSource();
-        //监听器
+        //listener
         EventListener eventListener = new EventListener() {
             @Override
             public void onChange() {

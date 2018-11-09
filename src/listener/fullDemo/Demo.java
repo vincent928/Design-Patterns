@@ -1,4 +1,4 @@
-package 监听器.完整Demo;
+package listener.fullDemo;
 
 /**
  *
@@ -9,7 +9,7 @@ public class Demo {
         EventSource eventSource = new EventSource();
         EventSource2 eventSource2 = new EventSource2();
 
-        //监听器
+        //listener
         IEventListener listener = new IEventListener() {
             @Override
             public void doEvent(IEvent args) {

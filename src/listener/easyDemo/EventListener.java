@@ -1,4 +1,4 @@
-package 监听器.简单Demo;
+package listener.easyDemo;
 
 /**
  * 事件的监听器
